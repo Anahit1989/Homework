@@ -9,3 +9,8 @@ user_weight = input("Enter your weight: ")
 user_weight = float(user_weight)
 print(user_weight)
 print(type(user_weight))
+user_marital_status = input("Are you marred? Answer the question by True or False:")
+user_marital_status = bool(user_marital_status)
+print(user_marital_status)
+print(type(user_marital_status))
+ 
