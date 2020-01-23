@@ -19,3 +19,7 @@ second_number=input("Enter an arbitrary number: ")
 second_number=int(second_number)
 sum_of_two_nmbers=first_number+second_number
 print(sum_of_two_nmbers>5, sum_of_two_nmbers==5, sum_of_two_nmbers<5)
+passing_mark=35
+your_mark=input("Enter your mark: ")
+your_mark=int(your_mark)
+print(your_mark>passing_mark)
