@@ -1,0 +1,7 @@
+name=input("Enter your name: ")
+age=input("Enter your age: ")
+age=int(age)
+current_year=input("Enter current_year: ")
+current_year=int(current_year)
+target_year=current_year+(100-age)
+print(target_year)
