@@ -19,7 +19,6 @@ for j in range(1):
 				if n_list[i]+n_list[k]+n_list[m]==0 and i<k<m:
 					j=[(n_list[i], n_list[k], n_list[m])]
 					result_list.append(j)
-					break
 result=sum_to_sero(n_list, result_list)
 print(result.get_sero_sum_numbers())
 
